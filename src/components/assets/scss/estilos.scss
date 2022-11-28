@@ -10,18 +10,40 @@
 // @import "footer";
 @import "./global/animaciones";
 
-// @import "./index.scss";
-// @import "./pages/inicio";
-// @import "./pages/nosotros";
-// @import "./pages/productos";
-// @import "./pages/blog";
-// @import "./pages/contacto";
 
 * {
   box-sizing: border-box;
+  color: #747474;
 }
 
 .hijo {
   height: calc(100vh - 55px);
 }
 
+.menu-user{
+  display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 15px;
+    right: 1rem;
+    position: absolute;
+    top: 29px;
+    width: 100%;
+  .dropdown{
+    .dropdown-toggle{
+      display: flex;
+      align-items: center;
+      gap: 11px;
+      padding: 7px;
+      background: #070d1b!important;
+      border-color: #070d1b!important;
+      .active-sesion{
+        margin-bottom: 0;
+        color: #fff;
+      }
+    }
+    .fa-user-check{
+      color: #fff;
+    }
+  }
+}

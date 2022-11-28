@@ -1,7 +1,8 @@
 import React from "react";
 import bgBanner from "./assets/images/Harley-Davidson-bg-1.webp";
-import "./assets/scss/Main.scss";
-export const Main = () => {
+import "./assets/scss/Home.scss";
+
+export const Home = () => {
   return (
     <>
       <main className="col-lg-10 col-md-12 main">
