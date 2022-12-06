@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import UserMenu from "../../userMenu/UserMenu";
 import bgBanner from "./assets/images/Harley-Davidson-bg-1.webp";
 import "./assets/scss/Home.scss";
@@ -28,12 +29,13 @@ export const Home = () => {
                 </li>
               </ul>
               <div className="btn-container">
-                <button
+                <Link
+                  to='/Contact'
                   className="btn-hover btn-inicio"
                   onclick="location.href='./contacto.html#formulario'"
                 >
                   Contacto
-                </button>
+                </Link>
               </div>
             </div>
             <div className="container col-lg-6 col-md-12 contenido-imagen">

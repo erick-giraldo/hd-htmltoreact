@@ -22,6 +22,10 @@
   .contenido-container {
     .btn-hover {
       &.btn-inicio {
+        line-height: 1.15;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
         width: 200px;
         color: $color-text-global;
         background-image: linear-gradient(to right, $btn_linear);
@@ -71,6 +75,7 @@
 
     .contenido-container {
       .btn-container {
+        display: flex!important;
         text-align: center;
       }
     }

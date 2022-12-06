@@ -7,6 +7,7 @@ import Swal from "sweetalert2";
 import "./assets/scss/Products.scss";
 import UserMenu from "../../userMenu/UserMenu";
 import Cart from "./Cart";
+import TabsContent from "./TabsContent";
 
 const Products = () => {
   const [products, setProducts] = useState([]);
@@ -212,6 +213,7 @@ const Products = () => {
       </div>
       <div className="content-product">
         <div className="productos-contenido">
+          <TabsContent />
           {listProducts(products)}
           <div />
         </div>
